@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navidad | Importaciones Puma | Juguetes y Libros 2025 - 2026</title>
+  <meta name="description" content="Edición Navidad Importaciones Puma - Combos de juguetes y libros educativos 2025 - 2026. Regalos para niños con envíos a todo Ecuador.">
+  <style>
+    :root {
+      --primary: #e11d48;
+      --primary-dark: #b91c1c;
+      --secondary: #22c55e;
+      --bg: #fef2f2;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --card-bg: #ffffff;
+      --accent: #facc15;
+      --radius-lg: 18px;
+      --shadow-soft: 0 14px 35px rgba(15, 23, 42, 0.12);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #fee2e2, #fefce8 40%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      background: rgba(254, 249, 195, 0.92);
+      border-bottom: 1px solid rgba(248, 113, 113, 0.35);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      color: var(--primary-dark);
+    }
+
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #f9fafb, #f97316 45%, #b91c1c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.2rem;
+      box-shadow: 0 10px 25px rgba(185, 28, 28, 0.5);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.6rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      padding: 0.4rem 0.75rem;
+      border-radius: 999px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .nav-links a:hover {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--primary-dark);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.7rem 1.3rem;
+      border-radius: 999px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #fb923c, var(--primary));
+      color: #fff;
+      box-shadow: 0 12px 25px rgba(248, 113, 113, 0.6);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 30px rgba(220, 38, 38, 0.75);
+    }
+
+    .btn-outline {
+      background: #fefce8;
+      border: 1px solid rgba(248, 113, 113, 0.7);
+      color: var(--primary-dark);
+    }
+
+    main { padding-bottom: 4rem; }
+
+    .hero { padding: 2.5rem 0 1.5rem; }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 2.5rem;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.15rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.12);
+      color: #166534;
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-bottom: 0.9rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 3.2vw + 1rem, 2.7rem);
+      line-height: 1.15;
+      margin-bottom: 0.8rem;
+    }
+
+    .hero h1 span { color: var(--primary-dark); }
+
+    .hero-sub {
+      font-size: 0.98rem;
+      color: var(--muted);
+      margin-bottom: 1.6rem;
+      max-width: 32rem;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-note {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .hero-note span {
+      font-weight: 600;
+      color: var(--primary-dark);
+    }
+
+    .hero-card {
+      background: radial-gradient(circle at top, #fee2e2, #ffffff);
+      border-radius: 26px;
+      padding: 1.8rem 1.6rem;
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(248, 113, 113, 0.4);
+    }
+
+    .hero-tag {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.2rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(248, 113, 113, 0.12);
+      color: var(--primary-dark);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .hero-price {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin: 0.6rem 0 0.2rem;
+    }
+
+    .hero-price-main {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+
+    .hero-price-sub {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .hero-list {
+      margin-top: 0.8rem;
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .hero-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .hero-badge {
+      position: absolute;
+      right: 1.5rem;
+      top: 1.4rem;
+      padding: 0.45rem 0.8rem;
+      border-radius: 999px;
+      background: #22c55e;
+      color: #f9fafb;
+      font-size: 0.78rem;
+      font-weight: 700;
+      box-shadow: 0 14px 30px rgba(22, 163, 74, 0.6);
+    }
+
+    section { padding: 2rem 0 0; }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: flex-end;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .section-title { font-size: 1.4rem; font-weight: 700; }
+
+    .section-sub {
+      font-size: 0.9rem;
+      color: var(--muted);
+      max-width: 22rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius-lg);
+      padding: 1rem;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid rgba(254, 226, 226, 0.9);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.4rem;
+      margin-bottom: 0.4rem;
+      align-items: center;
+    }
+
+    .chip {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.12);
+      color: #166534;
+      font-weight: 600;
+    }
+
+    .price {
+      font-weight: 700;
+      color: var(--primary-dark);
+      font-size: 0.95rem;
+    }
+
+    .card-media {
+      margin-bottom: 0.6rem;
+      border-radius: 14px;
+      overflow: hidden;
+      max-height: 190px;
+    }
+
+    .card-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-title {
+      font-size: 0.98rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .card-body {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.45rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.78rem;
+      padding: 0.18rem 0.6rem;
+      border-radius: 999px;
+      background: rgba(250, 204, 21, 0.13);
+      color: #92400e;
+      margin-top: 0.1rem;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .benefit-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: var(--radius-lg);
+      padding: 0.9rem 1rem;
+      border: 1px solid rgba(254, 226, 226, 0.9);
+      font-size: 0.86rem;
+      color: var(--muted);
+      box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+    }
+
+    .benefit-card strong {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+
+    .cta {
+      margin: 3rem 0 0;
+      padding: 1.7rem 1.5rem;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #b91c1c, #16a34a);
+      color: #fefce8;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 20px 45px rgba(185, 28, 28, 0.7);
+    }
+
+    .cta h2 {
+      font-size: 1.45rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .cta p {
+      font-size: 0.9rem;
+      max-width: 26rem;
+      color: #fef9c3;
+    }
+
+    .cta .btn-primary {
+      background: #facc15;
+      color: #92400e;
+      box-shadow: 0 14px 32px rgba(250, 204, 21, 0.7);
+    }
+
+    .cta .btn-primary:hover { background: #eab308; }
+
+    footer {
+      padding: 1.5rem 0 0.8rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    footer a { color: var(--primary); font-weight: 500; }
+
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: minmax(0, 1fr); }
+      .hero-card { margin-top: 1rem; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .benefits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+      }
+      .grid { grid-template-columns: minmax(0, 1fr); }
+      .benefits { grid-template-columns: minmax(0, 1fr); }
+      .cta { padding: 1.3rem 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">
+      <div class="logo-mark">🎄</div>
+      <div>
+        <div>Navidad Importaciones Puma</div>
+        <small style="font-weight:500;color:var(--muted);">
+          Juguetes & Libros Educativos 2025 - 2026
+        </small>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#combo">Combo navideño</a>
+      <a href="#mas-juguetes">Más juguetes</a>
+      <a href="#libros">Libros educativos</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#cta">Cómo comprar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">
+          🎁 Edición Navidad
+          <span>Catálogo 2025 - 2026</span>
+        </div>
+        <h1>
+          Regalos que sacan sonrisas
+          <span>mientras aprenden</span>.
+        </h1>
+        <p class="hero-sub">
+          Combos de juguetes educativos y libros interactivos para niños de 1 a 10 años.
+          Sácale esa sonrisita a tu pequeño estas fiestas con regalos que mezclan juego,
+          aprendizaje y momentos en familia.
+        </p>
+        <div class="hero-cta">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/593968639583?text=Hola%20👋%20quiero%20info%20del%20combo%20navideño%20de%205%20juguetes%20por%20$20."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🎁 Quiero el combo navideño
+          </a>
+          <a
+            class="btn btn-outline"
+            href="https://wa.me/593968639583?text=Hola%20👋%20quiero%20ver%20los%20libros%20educativos%20en%20promoción%201x15%20o%202x20."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📚 Ver libros en promo
+          </a>
+        </div>
+        <p class="hero-note">
+          <span>Envíos a todo Ecuador</span> • Regalos listos para envolver •
+          Atención directa por WhatsApp
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-badge">Top regalo 🎁</div>
+        <div class="hero-tag">🎓 Combo 5 juguetes educativos</div>
+        <h3 style="font-size:1.2rem;margin-top:0.4rem;">
+          Pack navideño para aprender jugando
+        </h3>
+        <div class="hero-price">
+          <div class="hero-price-main">$20</div>
+          <div class="hero-price-sub">
+            Precio especial por fiestas
+          </div>
+        </div>
+        <ul class="hero-list">
+          <li>✅ Computadora educativa interactiva</li>
+          <li>✅ Teléfono educativo con sonidos</li>
+          <li>✅ Pizarra LCD 10” para escribir y borrar</li>
+          <li>✅ Tablero fluorescente para dibujar</li>
+          <li>✅ Mini dron / helicóptero con luces</li>
+        </ul>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:0.9rem;">
+          Ideal para armar el regalo perfecto bajo el arbolito y sorprender a tu pequeño
+          con horas de juego y aprendizaje.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMBO JUGUETES -->
+  <section id="combo">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Combo navideño: 5 juguetes educativos</h2>
+          <p class="section-sub">
+            Un solo combo para estimular creatividad, memoria y coordinación. Perfecto
+            para regalo o para vender como pack especial de Navidad.
+          </p>
+        </div>
+        <span style="font-size:0.9rem;color:var(--primary-dark);font-weight:600;">
+          Combo completo: $20 🎁
+        </span>
+      </div>
+
+      <div class="grid">
+        <!-- COMPUTADORA EDUCATIVA -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Juguete 1</span>
+            <span class="price">Incluido</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/bRqbKVJD" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/NnQTyqSb/Whats-App-Image-2025-11-27-at-11-37-58-PM.jpg"
+                   alt="Computadora educativa" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Computadora educativa</h3>
+          <p class="card-body">
+            Teclado con letras, números y melodías. Introduce vocabulario, colores
+            y sonidos básicos de forma divertida.
+          </p>
+          <span class="pill">🔤 Letras & sonidos</span>
+        </article>
+
+        <!-- TELÉFONO EDUCATIVO -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Juguete 2</span>
+            <span class="price">Incluido</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/TDZGQwnF" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/mrmKnRYM/Whats-App-Image-2025-11-27-at-11-37-57-PM-1.jpg"
+                   alt="Teléfono educativo" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Teléfono educativo</h3>
+          <p class="card-body">
+            Botones con imágenes, música y efectos. Estimula memoria auditiva y juego
+            simbólico tipo “llamadas”.
+          </p>
+          <span class="pill">📱 Juego interactivo</span>
+        </article>
+
+        <!-- PIZARRA LCD -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Juguete 3</span>
+            <span class="price">Incluido</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/Ng121ctk" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/CpJKJRmX/Whats-App-Image-2025-11-27-at-11-37-57-PM-2.jpg"
+                   alt="Pizarra LCD 10&quot;" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Pizarra LCD 10"</h3>
+          <p class="card-body">
+            Tablet de escritura para dibujar, practicar números y letras. Borrado
+            con un solo botón, reutilizable miles de veces.
+          </p>
+          <span class="pill">✏️ Escritura & dibujo</span>
+        </article>
+
+        <!-- TABLERO FLUORESCENTE (ACTUALIZADO CON NUEVA IMAGEN) -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Juguete 4</span>
+            <span class="price">Incluido</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/JwKwm3WC" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/bMPMQbj7/Whats-App-Image-2025-11-28-at-1-24-05-AM.jpg"
+                   alt="Tablero fluorescente" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Tablero fluorescente</h3>
+          <p class="card-body">
+            Tableta de dibujo con luz, ideal para trazos, mensajes navideños y juegos
+            de imaginación.
+          </p>
+          <span class="pill">🎨 Creatividad</span>
+        </article>
+
+        <!-- MINI DRON / HELICÓPTERO -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Juguete 5</span>
+            <span class="price">Incluido</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/7xHy2mRW" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/cKPTDnCF/Whats-App-Image-2025-11-28-at-12-03-02-AM.jpg"
+                   alt="Mini dron o helicóptero con luces" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Mini dron / helicóptero con luces</h3>
+          <p class="card-body">
+            Juguete volador con luces de colores. Súper llamativo al apagar las luces
+            del árbol de Navidad.
+          </p>
+          <span class="pill">🚁 Luces & movimiento</span>
+        </article>
+
+        <!-- CÓMO PEDIR -->
+        <article class="card">
+          <h3 class="card-title">¿Cómo pedir el combo navideño?</h3>
+          <p class="card-body">
+            Escríbenos por WhatsApp, indica que quieres el
+            <strong>combo navideño de 5 juguetes educativos</strong> y tu ciudad.
+            Te confirmamos stock, costo de envío y fecha estimada de entrega.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/593968639583?text=Hola%20👋%20quiero%20comprar%20el%20combo%20navideño%20de%205%20juguetes%20educativos%20de%20$20."
+            target="_blank"
+            rel="noopener noreferrer"
+          >💬 Pedir combo ahora</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÁS JUGUETES -->
+  <section id="mas-juguetes">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Más juguetes para tu catálogo navideño</h2>
+          <p class="section-sub">
+            Completa tu oferta con juguetes y electrónicos que destacan en vitrina
+            y en redes. Perfectos para packs, rifas y promociones de temporada.
+          </p>
+        </div>
+        <span style="font-size:0.8rem;color:var(--muted);">
+          Ideales para revender o complementar regalos.
+        </span>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">NIF-01</span>
+            <span class="price">$4.50</span>
+          </div>
+          <h3 class="card-title">Máquina de educación musical</h3>
+          <p class="card-body">
+            Juguete interactivo con botones y melodías. Estimula oído, ritmo y
+            coordinación desde temprana edad.
+          </p>
+          <span class="pill">🎶 Música & estímulo</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">NIF-02</span>
+            <span class="price">$10.00</span>
+          </div>
+          <h3 class="card-title">Libro de aprendizaje en inglés</h3>
+          <p class="card-body">
+            Libro interactivo con vocabulario básico, letras y actividades en inglés.
+            Excelente para iniciar un segundo idioma.
+          </p>
+          <span class="pill">🇬🇧 Inglés básico</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">NIF-03</span>
+            <span class="price">$25.00</span>
+          </div>
+          <h3 class="card-title">Robot interactivo</h3>
+          <p class="card-body">
+            Robot con luces y movimiento. Muy llamativo para vitrina y contenido en video,
+            ideal para captar atención.
+          </p>
+          <span class="pill">🤖 Tecnología & juego</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">NIF-10</span>
+            <span class="price">$9.00</span>
+          </div>
+          <h3 class="card-title">Tableta de iluminación educativa</h3>
+          <p class="card-body">
+            Tableta luminosa para trazar, dibujar y practicar letras. Ideal para
+            actividades en familia en estas fiestas.
+          </p>
+          <span class="pill">🎨 Creatividad & trazos</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">JUR-08</span>
+            <span class="price">$5.00</span>
+          </div>
+          <h3 class="card-title">Pizarra borrable automática 10”</h3>
+          <p class="card-body">
+            Tablet LCD de escritura. Perfecta para listas de regalos, dibujos navideños
+            y tareas del cole.
+          </p>
+          <span class="pill">✏️ Uso diario</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">JUR-12</span>
+            <span class="price">$5.00</span>
+          </div>
+          <h3 class="card-title">Helicóptero de juguete USB</h3>
+          <p class="card-body">
+            Helicóptero con carga USB y luces. Producto perfecto para niños que aman
+            movimiento y acción.
+          </p>
+          <span class="pill">🚁 Acción & luces</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">JUR-17</span>
+            <span class="price">$14.00</span>
+          </div>
+          <h3 class="card-title">Cajero automático de juguete</h3>
+          <p class="card-body">
+            Juguete de rol que simula un cajero. Excelente para enseñar ahorro y manejo
+            de dinero jugando.
+          </p>
+          <span class="pill">💰 Rol & aprendizaje</span>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">PTY-01 / 03 / 04</span>
+            <span class="price">$10.00</span>
+          </div>
+          <h3 class="card-title">Lectura de puntos español & inglés</h3>
+          <p class="card-body">
+            Libros bilingües con lectura por puntos en español e inglés. Gran valor
+            educativo para primeras edades.
+          </p>
+          <span class="pill">🇪🇸🇬🇧 Bilingüe</span>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">Ver catálogo completo de juguetes</h3>
+          <p class="card-body">
+            ¿Quieres más modelos para tu campaña navideña? Escríbenos y te enviamos
+            fotos, videos y lista completa de juguetes disponibles.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/593968639583?text=Hola%20👋%20quiero%20ver%20el%20catálogo%20completo%20de%20juguetes%20para%20Navidad."
+            target="_blank"
+            rel="noopener noreferrer"
+          >💬 Envíenme el catálogo de juguetes</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBROS EDUCATIVOS -->
+  <section id="libros">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Libros educativos para regalar</h2>
+          <p class="section-sub">
+            Libros con sonido, actividades y lectura guiada. Promoción de fiestas:
+            <strong>1 libro $15 o 2 por $20</strong>. Regalos que se quedan en la mente
+            y en el corazón.
+          </p>
+        </div>
+        <span style="font-size:0.9rem;color:var(--primary-dark);font-weight:600;">
+          1 x $15 • 2 x $20 🎄
+        </span>
+      </div>
+
+      <div class="grid">
+        <!-- LIBRO 1: Y-BOOK INTERACTIVO -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Libro 1</span>
+            <span class="price">Desde $15</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/rqdsFnJ" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/1Bz67Hx/Whats-App-Image-2025-11-28-at-1-00-20-AM.jpg"
+                   alt="Y-Book interactivo" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Y-Book interactivo</h3>
+          <p class="card-body">
+            Libro electrónico con lápiz lector, actividades de preguntas y
+            respuestas, letras y números. Perfecto para tardes navideñas en familia.
+          </p>
+          <span class="pill">🔤 Lectura guiada</span>
+        </article>
+
+        <!-- LIBRO 2: NÚMEROS -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Libro 2</span>
+            <span class="price">Desde $15</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/3Yj2CzPj" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/tPvgJX1v/Whats-App-Image-2025-11-27-at-11-37-58-PM-2.jpg"
+                   alt="Libro de estudio - Números" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Libro de estudio – Números</h3>
+          <p class="card-body">
+            Actividades para aprender a reconocer y contar números. Ideal para
+            nivel inicial y preescolar.
+          </p>
+          <span class="pill">🔢 Matemática básica</span>
+        </article>
+
+        <!-- LIBRO 3: MI E-BOOK EN ESPAÑOL -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Libro 3</span>
+            <span class="price">Desde $15</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/nsRTTZYT" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/jvHddBQd/Whats-App-Image-2025-11-27-at-11-37-58-PM-4.jpg"
+                   alt="Mi E-Book en español" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Mi E-Book en español</h3>
+          <p class="card-body">
+            Libro electrónico con historias, palabras y juegos en español.
+            Perfecto para fomentar lectura temprana en vacaciones.
+          </p>
+          <span class="pill">📖 Lectura temprana</span>
+        </article>
+
+        <!-- LIBRO 4: ANIMALES -->
+        <article class="card">
+          <div class="card-header">
+            <span class="chip">Libro 4</span>
+            <span class="price">Desde $15</span>
+          </div>
+          <div class="card-media">
+            <a href="https://ibb.co/nqX09b7c" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ibb.co/20z6xyvt/Whats-App-Image-2025-11-27-at-11-37-58-PM-3.jpg"
+                   alt="Libro de estudio - Animales" border="0">
+            </a>
+          </div>
+          <h3 class="card-title">Libro de estudio – Animales</h3>
+          <p class="card-body">
+            Libro de páginas duras con ilustraciones de animales, preguntas y
+            actividades para aprender jugando.
+          </p>
+          <span class="pill">🦒 Naturaleza & exploración</span>
+        </article>
+
+        <!-- PROMO LIBROS -->
+        <article class="card">
+          <h3 class="card-title">Promo libros 1x15 / 2x20</h3>
+          <p class="card-body">
+            Llévate un libro por <strong>$15</strong> o elige cualquier
+            <strong>2 por $20</strong>. Arma tu propio combo para la edad y gustos
+            de tu pequeño.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/593968639583?text=Hola%20👋%20quiero%20aprovechar%20la%20promo%20navideña%20de%20libros%201x15%20o%202x20."
+            target="_blank"
+            rel="noopener noreferrer"
+          >💬 Quiero la promo de libros</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">¿Por qué Importaciones Puma esta Navidad?</h2>
+          <p class="section-sub">
+            Te ayudamos a tener regalos y productos listos para vender, con márgenes
+            atractivos y entregas a todo Ecuador en temporada alta.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefits">
+        <div class="benefit-card">
+          <strong>📦 Importación propia</strong>
+          Nos encargamos de toda la logística internacional para que tú solo te enfoques
+          en vender y entregar sonrisas esta Navidad.
+        </div>
+        <div class="benefit-card">
+          <strong>💵 Precios pensados para revender</strong>
+          Combos y productos con estructura de precio ideal para emprendedores, tiendas
+          y venta por redes sociales.
+        </div>
+        <div class="benefit-card">
+          <strong>🚚 Envíos a todo Ecuador</strong>
+          Trabajamos con operadores de confianza para llegar a tu ciudad a tiempo para
+          las fiestas.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <h2>¿Listo para sacarle esa sonrisita a ese pequeño de casa en estas fiestas?</h2>
+          <p>
+            Compra a tiempo, que el stock se agota rápido. Escríbenos por WhatsApp
+            para recibir fotos, videos y el catálogo 2025 - 2026 de juguetes y libros
+            educativos. Te ayudamos a armar tu pedido según tu ciudad y tu presupuesto.
+          </p>
+        </div>
+        <a
+          class="btn btn-primary"
+          href="https://wa.me/593968639583?text=Hola%20👋%20estoy%20listo%20para%20sacarle%20una%20sonrisita%20a%20mi%20pequeño%20en%20estas%20fiestas.%20Quiero%20más%20información."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          💬 Hablar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>
+    © 2025 - 2026 Importaciones Puma. Edición Navidad. Todos los derechos reservados.
+  </p>
+</footer>
+
+</body>
+</html>
